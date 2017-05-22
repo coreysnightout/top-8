@@ -12,15 +12,30 @@
   color: red;
 }
 
-.friends-of-gwar img {
-  display: inline-block;
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
+img {
+  position: relative;
+  width: auto;
+  height: 150px;
+  width: 90%;
+  display: block;
+  margin: auto;
   border: 5px solid blue;
 }
-
 .gwar1 {
+  display: block;
+  color: blue;
+  padding: 5px;
+  font: bold 12px Arial;
+}
+
+.friends-of-gwar {
   text-align: center;
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+.gwar-row {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
 }
