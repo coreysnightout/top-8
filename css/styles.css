@@ -1,0 +1,26 @@
+.container {
+  margin:auto;
+  width: 1000px;
+}
+
+.header {
+    padding: 10px;
+    background-color: #FFA348;
+    color: #7E3F00;
+}
+.dank {
+  color: red;
+}
+
+.friends-of-gwar img {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid blue;
+}
+
+.gwar1 {
+  text-align: center;
+}
